@@ -1,0 +1,4 @@
+Bundle-Name: test-panel-app
+Bundle-SymbolicName: test.panel.app
+Bundle-Version: 1.0.0
+Export-Package: test.panel.app.constants

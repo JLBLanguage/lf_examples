@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="test.service.builder.service.impl.EntryLocalServiceImpl" id="test.service.builder.service.EntryLocalService" />
+	<bean class="test.service.builder.service.impl.EntryServiceImpl" id="test.service.builder.service.EntryService" />
+	<bean class="test.service.builder.service.persistence.impl.EntryPersistenceImpl" id="test.service.builder.service.persistence.EntryPersistence" parent="basePersistence" />
+	<bean class="test.service.builder.service.impl.GuestbookLocalServiceImpl" id="test.service.builder.service.GuestbookLocalService" />
+	<bean class="test.service.builder.service.impl.GuestbookServiceImpl" id="test.service.builder.service.GuestbookService" />
+	<bean class="test.service.builder.service.persistence.impl.GuestbookPersistenceImpl" id="test.service.builder.service.persistence.GuestbookPersistence" parent="basePersistence" />
+</beans>

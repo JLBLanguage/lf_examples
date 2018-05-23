@@ -1,0 +1,5 @@
+Bundle-Name: test-react-portlet
+Bundle-SymbolicName: cz.gordic.liferay.imimo
+Bundle-Version: 1.0.0
+Export-Package: cz.gordic.liferay.imimo.constants
+Web-ContextPath: /test-react-portlet

@@ -1,0 +1,4 @@
+Bundle-Name: guest-book
+Bundle-SymbolicName: guest.book
+Bundle-Version: 3.0.0
+Export-Package: guest.book.constants

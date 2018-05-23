@@ -1,0 +1,9 @@
+Bundle-Name: test-service-builder-api
+Bundle-SymbolicName: test.service.builder.api
+Bundle-Version: 2.0.0
+Export-Package:\
+	test.service.builder.exception,\
+	test.service.builder.model,\
+	test.service.builder.service,\
+	test.service.builder.service.persistence
+-includeresource: META-INF/service.xml=../test-service-builder-service/service.xml

@@ -1,0 +1,9 @@
+Bundle-Name: test-service-builder-service
+Bundle-SymbolicName: test.service.builder.service
+Bundle-Version: 2.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true
+Export-Package:\
+	test.service.builder.permission,\
+	test.service.builder.search,\
+	test.service.builder.asset
